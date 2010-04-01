@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rx:Application 
   xmlns:fx="http://ns.adobe.com/mxml/2009"
-  xmlns:rx="http://rx.reflex.io/2010"
+  xmlns:rx="http://reflex.io/2010"
   xmlns:tf="flash.text.*"
   width="955" height="600"
   >
-  <rx:ComponentSkin>
+  <rx:Component>
     <rx:Button width="200" height="25" id="button" label="btn label">
       <rx:skin>
-        <rx:ComponentSkin>
+        <rx:Skin>
           <tf:TextField width="200" height="25" autoSize="left" text="{button.label}" />
-        </rx:ComponentSkin>
+        </rx:Skin>
       </rx:skin>
     </rx:Button>
-  </rx:ComponentSkin>
+  </rx:Component>
 </rx:Application>
